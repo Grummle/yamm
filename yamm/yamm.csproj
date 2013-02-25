@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExpressionConversion\ReWriter.cs" />
     <Compile Include="GenericEnumerableExtensions.cs" />
     <Compile Include="Mapper\Mapper.cs" />
-    <Compile Include="Mapping\BasicMap.cs" />
     <Compile Include="Mapping\IMap.cs" />
     <Compile Include="Mapping\ListMap.cs" />
     <Compile Include="Mapping\Map.cs" />
@@ -58,9 +58,7 @@
     <Compile Include="StringExtensions.cs" />
     <Compile Include="TypeExtensions.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ExpressionConversion\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

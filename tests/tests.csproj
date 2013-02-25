@@ -48,7 +48,6 @@
     <Compile Include="ExpressionConversion\BasicConversionTests.cs" />
     <Compile Include="Helpers.cs" />
     <Compile Include="Mapper\MapperTests.cs" />
-    <Compile Include="Mapping\BasicMapTests.cs" />
     <Compile Include="Mapping\Entity.cs" />
     <Compile Include="Mapping\ListMapTests.cs" />
     <Compile Include="Mapping\MapTests.cs" />
